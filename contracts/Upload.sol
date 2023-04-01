@@ -50,6 +50,6 @@ contract Upload{
     }
 
     function shareAccess() public view returns(Access[] memory){
-        returns accessList[msg.sender];
+        return accessList[msg.sender];
     }
 }
